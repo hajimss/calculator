@@ -6,12 +6,14 @@ export default class App extends React.Component {
     constructor() {
         super();
     }
+
+
     render () {
         return (
             <div>
                 <h1>Calculator of the Future!</h1>
                 <Calculator/>
-                <p>* Refresh after every use</p>
+                <p>* Wait for calculator to refresh after every use [ about 2 seconds ]</p>
             </div>
         );
     }
