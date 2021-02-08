@@ -11,6 +11,7 @@ export default class App extends React.Component {
             <div>
                 <h1>Calculator of the Future!</h1>
                 <Calculator/>
+                <p>* Refresh after every use</p>
             </div>
         );
     }
